@@ -1,4 +1,4 @@
-@set CustomerGUID = '<Your Hub World MMO API Key>'
+@set CustomerGUID = 'ccdcd104-2088-49e2-843e-dc2e1c3ab5c3'
 	
 insert into Maps (CustomerGUID, MapName, MapData, Width, Height, ZoneName, WorldCompContainsFilter, WorldCompListFilter, MapMode, SoftPlayerCap, HardPlayerCap, MinutesToShutdownAfterEmpty)
 select :CustomerGUID, 'HubWorldMap', NULL, 1, 1, 'HubWorld', '', '', 1, 60, 80, 1
